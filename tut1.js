@@ -32,7 +32,7 @@ Array, Object, Function, Date, RegExp, Map, Set, WeakMap, WeakSet
 
 const heros = ["shaktiman", "naagraj", "doga"];
 let myObj = {
-    name: "hitesh",
+    name: "jeff",
     age: 22,
 }
 
