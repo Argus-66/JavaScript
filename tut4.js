@@ -12,3 +12,4 @@ const JsUser = {
 console.log((JsUser));
 console.log(JsUser.name);
 console.log(JsUser.lastLoginDate[1]);
+console.log(JsUser["email"]);
