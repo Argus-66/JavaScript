@@ -1,1 +1,3 @@
-marvel_heroes.push(dc_heroes)
+Object.freeze(JsUser);
+// JsUser.email = "argus@yahoo.com";
+// console.log(`${JsUser.email} ---------Value frozen`);

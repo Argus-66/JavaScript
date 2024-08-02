@@ -42,3 +42,22 @@ console.log(JsUser2);
 //Value overwriting
 JsUser.email = "argus@gmail.com";
 console.log(JsUser.email);
+
+//Freezing a value
+// Object.freeze(JsUser);
+// JsUser.email = "argus@yahoo.com";
+// console.log(`${JsUser.email} ---------Value frozen`);
+
+JsUser.greeting = function(){
+    console.log("Hello JS user");
+};
+
+console.log(JsUser.greeting);
+console.log(JsUser.greeting());
+
+JsUser.greetingTwo = function(){
+    console.log(`Hello JS user, ${this.name}`);
+};
+
+console.log(JsUser.greetingTwo);
+console.log(JsUser.greetingTwo());
