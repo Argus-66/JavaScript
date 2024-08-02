@@ -36,6 +36,9 @@ console.log(JsUser2[mySym2]);
 console.log(typeof mySym2);
 console.log(typeof [mySym2]);
 console.log(typeof JsUser2[mySym2]);
+console.log(Object.keys(JsUser2));
+console.log(JsUser2);
 
 //Value overwriting
 JsUser.email = "argus@gmail.com";
+console.log(JsUser.email);
