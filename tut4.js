@@ -1,4 +1,6 @@
 //Object literals
+
+
 const mySym = Symbol("key1")
 console.log(mySym);
 
