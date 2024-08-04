@@ -35,3 +35,21 @@ chai1();
 
 console.log("-------------------------------");
 
+const chai2 = function() {
+    let username = "John Doe";
+    console.log(this.username);
+}
+
+chai2();
+
+console.log("-------------------------------");
+
+const chai3 = () => {
+    let username = "John Doe";
+    console.log(this.username);
+}
+
+chai3();
+
+console.log("-------------------------------");
+
