@@ -64,3 +64,17 @@ console.log("-------------------------------");
 const addTwo1 = (num1, num2) =>  num1 + num2;
 
 console.log(addTwo1(2, 3));
+
+console.log("-------------------------------");
+
+const addTwo2 = (num1, num2) =>  (num1 + num2);
+
+console.log(addTwo2(2, 3));
+
+console.log("-------------------------------");
+
+const addTwo3 = (num1, num2) => ({username: "John Doe"});
+
+console.log(addTwo3(2, 3));
+
+console.log("-------------------------------");
