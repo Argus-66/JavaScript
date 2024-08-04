@@ -71,3 +71,8 @@ map.set('IN', 'India')
     .set('IN', 'India')
 
 console.log(map);
+console.log("------------------------------")
+for (const key of map){
+    console.log(key);
+}
+console.log("------------------------------")
