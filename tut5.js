@@ -20,3 +20,4 @@ const regularUser = {
 }
 console.log(regularUser);
 console.log(regularUser.fullname);
+console.log(regularUser.fullname.userfullname);
