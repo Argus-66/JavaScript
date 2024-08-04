@@ -1,7 +1,11 @@
-(function one() {
-  console.log(`DB CONNECTED`);
+// Immediately Invoked Function Expressions (IIFE)
+
+
+(function chai(){
+    // named IIFE
+    console.log(`DB CONNECTED`);
 })();
 
-(() => {
-    console.log("Arrow function one");
-})();
+( (name) => {
+    console.log(`DB CONNECTED TWO ${name}`);
+} )('hitesh')
