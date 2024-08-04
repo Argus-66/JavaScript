@@ -77,3 +77,9 @@ function returnSecondValue(getArray){
 }
 
 console.log(returnSecondValue(myNewArray));
+
+console.log("-------------------------------");
+
+console.log(returnSecondValue([
+    200,300,400,1000
+]));
