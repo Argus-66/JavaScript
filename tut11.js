@@ -51,3 +51,13 @@ let newArr = arr.map(function(element) {
 console.log(newArr);
 
 console.log("------------------------------")
+
+// filter
+
+let filteredArr = arr.filter(function(element) {
+    return element % 2 === 0;
+});
+
+console.log(filteredArr);
+
+console.log("------------------------------")
