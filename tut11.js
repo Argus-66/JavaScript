@@ -41,3 +41,13 @@ arr.forEach(function(element) {
 });
 
 console.log("------------------------------")
+
+// map
+
+let newArr = arr.map(function(element) {
+    return element * 2;
+});
+
+console.log(newArr);
+
+console.log("------------------------------")
