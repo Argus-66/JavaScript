@@ -24,3 +24,13 @@ while (j < arr.length) {
 
 console.log("------------------------------")
 
+// Do-while loop
+
+let k = 0;
+do {
+    console.log(arr[k]);
+    k++;
+} while (k < arr.length);
+
+console.log("------------------------------")
+
