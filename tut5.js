@@ -33,3 +33,31 @@ console.log(obj4);
 
 const obj5 = {...obj1,...obj2 };
 console.log(obj5);
+
+
+
+const users = [
+    {
+        id: 1,
+        email: "a@example.com"
+    },
+    {
+        id: 2,
+        email: "b@example.com"
+    },
+    {
+        id: 3,
+        email: "c@example.com"
+    },
+]
+
+users.forEach(user => {
+    console.log(user);
+});
+
+users[1].email;
+console.log(tinderUser);
+
+console.log(Object.keys(tinderUser));
+console.log(Object.values(tinderUser));
+console.log(Object.entries(tinderUser));
