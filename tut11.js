@@ -14,4 +14,13 @@ for (let i = 0; i < arr.length; i++) {
 
 console.log("------------------------------")
 
+// While loop
+
+let j = 0;
+while (j < arr.length) {
+    console.log(arr[j]);
+    j++;
+}
+
+console.log("------------------------------")
 
