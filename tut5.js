@@ -72,5 +72,50 @@ const course = {
 }
 
 const {courseInstructor: instructor} = course;
-
 console.log(instructor);
+
+// {
+//     "name": "John Doe",
+//     "coursename": "JavaScript",
+//     "price": "999",
+// }
+
+[
+    colorThemes = [
+      {
+        "name": "Blue and White",
+        "primaryColor": "#007BFF",
+        "secondaryColor": "#FFFFFF"
+      },
+      {
+        "name": "Black and Yellow",
+        "primaryColor": "#000000",
+        "secondaryColor": "#FFD700"
+      },
+      {
+        "name": "Green and White",
+        "primaryColor": "#28A745",
+        "secondaryColor": "#FFFFFF"
+      },
+      {
+        "name": "Navy and Coral",
+        "primaryColor": "#001F3F",
+        "secondaryColor": "#FF6F61"
+      },
+      {
+        "name": "Purple and White",
+        "primaryColor": "#6F42C1",
+        "secondaryColor": "#FFFFFF"
+      },
+      {
+        "name": "Teal and Orange",
+        "primaryColor": "#20C997",
+        "secondaryColor": "#FD7E14"
+      },
+      {
+        "name": "Gray and Blue",
+        "primaryColor": "#6C757D",
+        "secondaryColor": "#17A2B8"
+      },
+    ],
+]

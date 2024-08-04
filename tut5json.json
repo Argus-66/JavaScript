@@ -1,0 +1,105 @@
+{
+    "colorThemes": [
+      {
+        "name": "Blue and White",
+        "primaryColor": "#007BFF",
+        "secondaryColor": "#FFFFFF"
+      },
+      {
+        "name": "Black and Yellow",
+        "primaryColor": "#000000",
+        "secondaryColor": "#FFD700"
+      },
+      {
+        "name": "Green and White",
+        "primaryColor": "#28A745",
+        "secondaryColor": "#FFFFFF"
+      },
+      {
+        "name": "Navy and Coral",
+        "primaryColor": "#001F3F",
+        "secondaryColor": "#FF6F61"
+      },
+      {
+        "name": "Purple and White",
+        "primaryColor": "#6F42C1",
+        "secondaryColor": "#FFFFFF"
+      },
+      {
+        "name": "Teal and Orange",
+        "primaryColor": "#20C997",
+        "secondaryColor": "#FD7E14"
+      },
+      {
+        "name": "Gray and Blue",
+        "primaryColor": "#6C757D",
+        "secondaryColor": "#17A2B8"
+      },
+      {
+        "name": "Red and White",
+        "primaryColor": "#DC3545",
+        "secondaryColor": "#FFFFFF"
+      },
+      {
+        "name": "Brown and Beige",
+        "primaryColor": "#795548",
+        "secondaryColor": "#F5F5DC"
+      },
+      {
+        "name": "Dark Blue and Light Blue",
+        "primaryColor": "#343A40",
+        "secondaryColor": "#17A2B8"
+      },
+      {
+        "name": "Olive and Cream",
+        "primaryColor": "#808000",
+        "secondaryColor": "#FFFDD0"
+      },
+      {
+        "name": "Lavender and Navy",
+        "primaryColor": "#E6E6FA",
+        "secondaryColor": "#2C3E50"
+      },
+      {
+        "name": "Aqua and Purple",
+        "primaryColor": "#00FFFF",
+        "secondaryColor": "#800080"
+      },
+      {
+        "name": "Orange and Navy",
+        "primaryColor": "#FFA500",
+        "secondaryColor": "#000080"
+      },
+      {
+        "name": "Pink and Gray",
+        "primaryColor": "#FFC0CB",
+        "secondaryColor": "#696969"
+      },
+      {
+        "name": "Mint and White",
+        "primaryColor": "#98FF98",
+        "secondaryColor": "#FFFFFF"
+      },
+      {
+        "name": "Maroon and Gold",
+        "primaryColor": "#800000",
+        "secondaryColor": "#FFD700"
+      },
+      {
+        "name": "Turquoise and Black",
+        "primaryColor": "#40E0D0",
+        "secondaryColor": "#000000"
+      },
+      {
+        "name": "Dark Green and Light Green",
+        "primaryColor": "#006400",
+        "secondaryColor": "#90EE90"
+      },
+      {
+        "name": "Beige and Brown",
+        "primaryColor": "#F5F5DC",
+        "secondaryColor": "#8B4513"
+      }
+    ]
+  }
+  
