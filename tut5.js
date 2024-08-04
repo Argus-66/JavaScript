@@ -21,3 +21,9 @@ const regularUser = {
 console.log(regularUser);
 console.log(regularUser.fullname);
 console.log(regularUser.fullname.userfullname);
+
+const obj1 = { 1: "a", 2: "b", 3: "c" };
+const obj2 = { 4: "a", 5: "b", 6: "c" };
+
+const obj3 = { obj1, obj2 };
+console.log(obj3);
