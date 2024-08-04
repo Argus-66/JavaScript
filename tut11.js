@@ -34,3 +34,10 @@ do {
 
 console.log("------------------------------")
 
+// forEach loop
+
+arr.forEach(function(element) {
+    console.log(element);
+});
+
+console.log("------------------------------")
