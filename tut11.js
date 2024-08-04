@@ -76,3 +76,7 @@ for (const key of map){
     console.log(key);
 }
 console.log("------------------------------")
+for (const [key, value] of map){
+    console.log(`${key}: ${value}`);
+}
+console.log("------------------------------")
