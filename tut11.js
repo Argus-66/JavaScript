@@ -34,6 +34,14 @@ do {
 
 console.log("------------------------------")
 
+//forOf loop
+
+for (let element of arr) {
+    console.log(element);
+}
+
+console.log("------------------------------")
+
 // forEach loop
 
 arr.forEach(function(element) {
