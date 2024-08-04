@@ -119,3 +119,8 @@ console.log(instructor);
       },
     ],
 ]
+
+//console.log(colorThemes);
+
+console.log(colorThemes[1]);
+console.log(colorThemes[1].name);
