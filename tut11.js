@@ -7,6 +7,7 @@
     // map
 
 // For loop
+console.log("For loop");
 let arr = [1, 2, 3, 4, 5];
 for (let i = 0; i < arr.length; i++) {
     console.log(arr[i]);
@@ -15,7 +16,7 @@ for (let i = 0; i < arr.length; i++) {
 console.log("------------------------------")
 
 // While loop
-
+console.log("While loop");
 let j = 0;
 while (j < arr.length) {
     console.log(arr[j]);
@@ -26,6 +27,7 @@ console.log("------------------------------")
 
 // Do-while loop
 
+console.log("Do-while loop");
 let k = 0;
 do {
     console.log(arr[k]);
@@ -34,8 +36,9 @@ do {
 
 console.log("------------------------------")
 
-//forOf loop
 
+//forOf loop
+console.log("For of loop");
 for (let element of arr) {
     console.log(element);
 }
@@ -43,7 +46,7 @@ for (let element of arr) {
 console.log("------------------------------")
 
 // forEach loop
-
+console.log("forEach loop");
 arr.forEach(function(element) {
     console.log(element);
 });
@@ -51,7 +54,7 @@ arr.forEach(function(element) {
 console.log("------------------------------")
 
 // map
-
+console.log("Map");
 let newArr = arr.map(function(element) {
     return element * 2;
 });
@@ -59,3 +62,12 @@ let newArr = arr.map(function(element) {
 console.log(newArr);
 
 console.log("------------------------------")
+
+const map = new Map()
+map.set('IN', 'India')
+    .set('US', 'USA')
+    .set('UK', 'United Kingdom')
+    .set('CA', 'Canada')
+    .set('IN', 'India')
+
+console.log(map);
