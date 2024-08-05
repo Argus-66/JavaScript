@@ -20,3 +20,9 @@ const programming = ["javascript", "python", "java", "c", "cpp", "go"]
 for (const key in programming) {
     console.log(key);
 }
+
+console.log("-----------------------------");
+
+for (const key in programming) {
+    console.log(programming[key]);
+}
