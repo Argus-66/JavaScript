@@ -17,3 +17,11 @@ turnRed.forEach(li => {
     li.style.color = 'red';
 });
 console.log(myul.querySelectorAll('li'));
+
+turnRed.forEach(li => {
+    li.style.backgroundColor = 'yellow';
+});
+
+turnRed.forEach(li => {
+    li.style.listStyle = 'none';
+});
