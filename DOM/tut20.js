@@ -22,3 +22,6 @@ const addText = document.createTextNode("Chai aur code");
 div.appendChild(addText);
 
 document.body.appendChild(div);
+
+
+// <div class="main" id="8" title="generated title" style="background-color
