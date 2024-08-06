@@ -25,3 +25,4 @@ turnRed.forEach(li => {
 turnRed.forEach(li => {
     li.style.listStyle = 'none';
 });
+
