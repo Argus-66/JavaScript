@@ -10,3 +10,8 @@ console.log(parent.children[i].innerHTML);
 }
 
 parent.children[1].style.color = "orange"
+
+const dayOne = document.querySelector('.day')
+console.log(dayOne);
+
+console.log(dayOne.parentElement);
