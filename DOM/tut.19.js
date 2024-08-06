@@ -8,3 +8,5 @@ console.log(parent.children[2].innerHTML);
 for (let i = 0; i < parent.children.length; i++) {
 console.log(parent.children[i].innerHTML);
 }
+
+parent.children[1].style.color = "orange"
