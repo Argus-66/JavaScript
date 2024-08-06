@@ -18,3 +18,4 @@ console.log(dayOne.parentElement);
 
 console.log(dayOne.nextElementSibling);
 
+console.log("NODES: ", parent.childNodes);
