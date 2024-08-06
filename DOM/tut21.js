@@ -4,8 +4,10 @@ function addLanguage(langName) {
   li.innerHTML = `${langName}`;
 
   document.querySelector(".language").appendChild(li);
-  
+
 }
+
+
 addLanguage("python");
 addLanguage("typescript");
 
