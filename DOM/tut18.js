@@ -11,3 +11,9 @@ console.log(document.querySelector('#title'));
 console.log(document.querySelector('.heading'));
 console.log(document.querySelector('input[type = "password"]'));
 
+const myul = document.querySelector('ul');
+const turnRed = myul.querySelectorAll('li')
+turnRed.forEach(li => {
+    li.style.color = 'red';
+});
+console.log(myul.querySelectorAll('li'));
