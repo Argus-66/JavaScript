@@ -11,7 +11,8 @@ function addLanguage(langName) {
 addLanguage("python");
 addLanguage("typescript");
 
-function addOptiLanguage(langName) {
+function addOptiLanguage(langName) 
+{
   const li = document.createElement("li");
   li.appendChild(document.createTextNode(langName));
   document.querySelector(".language").appendChild(li);
