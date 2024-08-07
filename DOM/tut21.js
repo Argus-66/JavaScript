@@ -9,7 +9,7 @@ function addLanguage(langName) {
 
 
 addLanguage("python");
-addLanguage("typescript");
+addLanguage("Node");
 
 
 function addOptiLanguage(langName) 
@@ -26,7 +26,7 @@ addOptiLanguage("golang");
 
 
 
-//Edit
+//Edit   Replacing Python with Mongo
 const secondLang = document.querySelector("li:nth-child(2)");
 console.log(secondLang);
 
@@ -35,11 +35,11 @@ const newli = document.createElement("li");
 newli.textContent = "Mongo";
 secondLang.replaceWith(newli);
 
-//edit
+//edit    adding TypeScript as first language
 const firstLang = document.querySelector("li:first-child");
 firstLang.outerHTML = "<li>TypeScript</li>";
 
-//remove
+//remove    removing golang (Last language in the list)
 const lastLang = document.querySelector("li:last-child");
 lastLang.remove();
 
