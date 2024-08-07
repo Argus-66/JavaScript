@@ -11,6 +11,7 @@ function addLanguage(langName) {
 addLanguage("python");
 addLanguage("typescript");
 
+
 function addOptiLanguage(langName) 
 {
   const li = document.createElement("li");
@@ -23,12 +24,15 @@ function addOptiLanguage(langName)
 
 addOptiLanguage("golang");
 
+
+
 //Edit
 const secondLang = document.querySelector("li:nth-child(2)");
 console.log(secondLang);
+
 //secondLang.innerHTML = "Mojo"
 const newli = document.createElement("li");
-newli.textContent = "Mojo";
+newli.textContent = "Mongo";
 secondLang.replaceWith(newli);
 
 //edit
@@ -38,3 +42,5 @@ firstLang.outerHTML = "<li>TypeScript</li>";
 //remove
 const lastLang = document.querySelector("li:last-child");
 lastLang.remove();
+
+
